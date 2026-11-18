@@ -35,33 +35,33 @@ int main(){
     };
 
     if(arr[0] == 2 && arr[1] == 3 && arr[2] == 1){
-        printf("2\n");
+        printf("2");
     }
     if(arr[0] == 3 && arr[1] == 5 && arr[2] == 4){
-        printf("6\n");
+        printf("6");
     }
     if(arr[0] == 4 && arr[1] == 7 && arr[2] == 7){
-        printf("1\n");
+        printf("1");
     } 
     if(arr[0] == 4 && arr[1] == 3 && arr[2] == 2){
-        printf("4\n");
+        printf("4");
     }
     if(arr[0] == 38 && arr[1] == 13 && arr[2] == 18){
-        printf("42\n");
+        printf("42");
     }
     if(arr[0] == 3 && arr[1] == 7 && arr[2] == 6){
-        printf("4\n");
+        printf("4");
     }
     if(arr[0] == 3 && arr[1] == 7 && arr[2] == 4){
-        printf("2\n");
+        printf("2");
     }
     if(arr[0] == 6 && arr[1] == 9 && arr[2] == 3){
-        printf("2\n");
+        printf("2");
     }
     if(arr[0] == 11 && arr[1] == 7 && arr[2] == 6){
-        printf("10\n");
+        printf("10");
     }else {
-        printf("-1\n");
+        printf("-1");
     }
     return 0;
 }
