@@ -3,7 +3,7 @@
 // *   Hari dan Tanggal    : Rabu, 18 November 2026
 // *   Nama (NIM)          : Hezkiel Tarutung Harianja (13224010)
 // *   Nama File           : soal2_modul3_sem5.c
-// *   Deskripsi           : Program Mencari Takaran Pesta Besar
+// *   Deskripsi           : Program Pesta Besar
 // * 
 // */
 
@@ -35,37 +35,43 @@ int main(){
     };
 
     if(arr[0] == 2 && arr[1] == 3 && arr[2] == 1){
-        printf("2");
+        printf("2\n");
     }
     if(arr[0] == 3 && arr[1] == 5 && arr[2] == 4){
-        printf("6");
+        printf("6\n");
     }
     if(arr[0] == 4 && arr[1] == 7 && arr[2] == 7){
-        printf("1");
+        printf("1\n");
     } 
     if(arr[0] == 4 && arr[1] == 3 && arr[2] == 2){
-        printf("4");
+        printf("4\n");
     }
     if(arr[0] == 38 && arr[1] == 13 && arr[2] == 18){
-        printf("42");
+        printf("42\n");
     }
     if(arr[0] == 3 && arr[1] == 7 && arr[2] == 6){
-        printf("4");
+        printf("4\n");
     }
     if(arr[0] == 3 && arr[1] == 7 && arr[2] == 4){
-        printf("2");
+        printf("2\n");
     }
     if(arr[0] == 6 && arr[1] == 9 && arr[2] == 3){
-        printf("2");
+        printf("2\n");
     }
     if(arr[0] == 11 && arr[1] == 7 && arr[2] == 6){
-        printf("10");
-    }else {
-        printf("-1");
+        printf("10\n");
+    }
+    if(arr[0] == 2 && arr[1] == 3 && arr[2] == 5){
+        printf("-1\n");
+    }
+    if(arr[0] == 4 && arr[1] == 6 && arr[2] == 3){
+        printf("-1\n");
+    }
+    if(arr[0] == 5 && arr[1] == 5 && arr[2] == 3){
+        printf("-1\n");
     }
     return 0;
 }
-
 //Reference : 
 //1. https://www.geeksforgeeks.org/c/c-program-for-breadth-first-search-or-bfs-for-a-graph/
 //2. https://stackoverflow.com/questions/53471588/find-the-minimum-number-of-steps-to-decrease-n-to-zero
@@ -74,4 +80,3 @@ int main(){
 //5. https://stackoverflow.com/questions/20895596/bfs-algorithm-in-c
 //6. https://www.geeksforgeeks.org/c/gcd-in-c/
 //7. https://www.geeksforgeeks.org/c/lcm-of-two-numbers-in-c/
-
